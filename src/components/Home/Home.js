@@ -9,7 +9,7 @@ function Home(props)
 
     const handleChange = (event) =>{
         setValue(event.target.value);
-    }
+    } 
 
     const handleSubmit = (event) => {
         event.preventDefault();
