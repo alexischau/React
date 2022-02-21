@@ -33,6 +33,11 @@ function Home(props)
                     <Class name ={favClass} key={favClass}></Class>
                 )}
             </div>
+            <div className="my-classes">
+                {favoriteClasses.map((favClass) =>
+                    <ClassGraphQL name ={favClass} key={favClass}></ClassGraphQL>
+                )}
+            </div>
         </div>
     )
 }
